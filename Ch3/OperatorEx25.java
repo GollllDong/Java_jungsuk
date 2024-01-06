@@ -22,5 +22,6 @@ public class OperatorEx25 {
             int a = (int) ch;
             System.out.printf("입력하신 문자는 영문자(소)입니다. 해당 문자의 int형 값 %d",a);
         }
+        scanner.close();
     }
 }
