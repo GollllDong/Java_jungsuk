@@ -24,5 +24,6 @@ public class FlowEx28 {
 		} while(input!=answer);
 
 		System.out.println("정답입니다.");
+		scanner.close();
 	}
 }

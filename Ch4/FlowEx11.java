@@ -11,7 +11,7 @@ public class FlowEx11 {
 		regNo = scanner.nextLine();
 
 		gender = regNo.charAt(7); // 입력받은 번호의 8번째 문자를 gender에 저장
-
+		scanner.close();
 		switch(gender) {
 			case '1':
 			case '3':

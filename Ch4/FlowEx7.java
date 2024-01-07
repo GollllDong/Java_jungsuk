@@ -10,6 +10,7 @@ public class FlowEx7 {
 		Scanner scanner = new Scanner(System.in);
 		String tmp = scanner.nextLine(); // 화면을 통해 입력받은 내용을 tmp에 저장
 		user = Integer.parseInt(tmp);    // 입력받은 문자열(tmp)를 숫자로 변환
+		scanner.close();
 
 		com = (int)(Math.random() * 3) + 1;  // 1,2,3중 하나가 com에 저장됨
 

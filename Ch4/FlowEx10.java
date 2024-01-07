@@ -29,7 +29,7 @@ class FlowEx10 {
 			default :
 				grade = 'F';
 		} // end of switch
-
+		scanner.close();
 		System.out.println("당신의 학점은 "+ grade +"입니다.");
 	} // main의 끝
 }

@@ -8,6 +8,7 @@ public class FlowEx17 {
         Scanner scanner = new Scanner(System.in);
         String tmp = scanner.nextLine();
         int int_input = Integer.parseInt(tmp);
+        
 
         for(int i = 1; i <= int_input; i++ ){
             for(int j = 1; j <= i; j++) {
@@ -15,5 +16,6 @@ public class FlowEx17 {
             }
             System.out.println();
         }
+        scanner.close();
     }
 }

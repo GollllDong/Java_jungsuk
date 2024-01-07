@@ -21,5 +21,6 @@ public class FlowEx25 {
 		}
 		
 		System.out.println("각 자리수의 합:"+ sum);
+		scanner.close();
 	}
 }

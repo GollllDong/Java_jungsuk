@@ -11,5 +11,6 @@ public class FlowEx18 {
         for(int i=1; i <= 9; i++) {
             System.out.println(int_casting+"*"+i+"="+int_casting * i);
         }
+        scanner.close();
     }
 }

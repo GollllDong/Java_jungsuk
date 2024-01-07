@@ -4,7 +4,6 @@ import java.util.*;
 public class FlowEx32 {
 	public static void main(String[] args) { 
 		int menu = 0;
-		int num  = 0;
 
 		Scanner scanner = new Scanner(System.in);
 
@@ -26,6 +25,7 @@ public class FlowEx32 {
 			}
 			
 			System.out.println("선택하신 메뉴는 "+ menu +"번입니다.");
+			scanner.close();
 		}
 	} // main의 끝
 }

@@ -32,6 +32,7 @@ public class FlowEx4 {
             System.out.println("낙제입니다. 다음 시험을 잘보세요.");
             System.exit(grade);
         }
+        scanner.close();
         System.out.println("당신의 성적은"+grade+ "입니다");
     }
 }
