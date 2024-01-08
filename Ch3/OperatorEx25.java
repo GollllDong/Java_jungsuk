@@ -5,7 +5,7 @@ import java.util.*;
 public class OperatorEx25 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("문자를 하나 입력하세요 : ");   
+        System.out.println("문자를 하나 입력 : ");   
 
         String str = scanner.nextLine();
         char ch = str.charAt(0);
