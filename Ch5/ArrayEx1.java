@@ -11,7 +11,7 @@ public class ArrayEx1 {
             score[3] = 80;
             score[4] = 90;
     
-            int tmp = score[k+2] + score[4];  // int tmp = score[3] + score[4]
+            int tmp = score[k+2] + score[4];  // int tmp = score[3] + score[4] 별 의도는 X
     
             // for문으로 배열의 모든 요소를 출력한다.
             for(int i=0; i < 5; i++) {
