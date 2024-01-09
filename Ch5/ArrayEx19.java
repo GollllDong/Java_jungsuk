@@ -3,11 +3,11 @@ package Ch5;
 public class ArrayEx19 {
     public static void main(String[] args) {
         int[][] score = {
-                           { 100, 100, 100}
-                           , { 20, 20, 20}
-                           , { 30, 30, 30}
-                           , { 40, 40, 40}
-                           , { 50, 50, 50}
+                           { 100, 70, 80}
+                           , { 80, 40, 60}
+                           , { 20, 55, 98}
+                           , { 87, 91, 77}
+                           , { 54, 20, 63}
                        };
        // 과목별 총점
        int korTotal = 0;
