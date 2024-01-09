@@ -24,11 +24,11 @@ public class ArrayEx19 {
            korTotal  += score[i][0];
            engTotal  += score[i][1];
            mathTotal += score[i][2];
-           System.out.printf("%3d", i+1);
+           System.out.printf("%3d", i+1); // 번호
 
            for(int j=0;j < score[i].length;j++) {
                sum += score[i][j]; 
-               System.out.printf("%5d", score[i][j]);
+               System.out.printf("%5d", score[i][j]); // 국 영 수 점수 출력
            }
 
            avg = sum/(float)score[i].length;  // 평균계산
