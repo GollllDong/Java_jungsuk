@@ -12,7 +12,7 @@ class Tv {
     void channelDown() {  --channel; }  // TV의 채널을 낮추는 기능을 하는 메서드 
 }
 
-public class TvTest2 {
+class TvTest2 {
    public static void main(String args[]) {
        Tv t1 = new Tv();  // Tv t1; t1 = new Tv();를 한 문장으로 가능
        Tv t2 = new Tv();

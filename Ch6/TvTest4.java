@@ -1,6 +1,6 @@
 package Ch6;
 
-public class TvTest4 {
+class TvTest4 {
 	public static void main(String args[]) {
 		Tv[] tvArr = new Tv[3]; // 길이가 3인 Tv객체 배열
 
