@@ -50,5 +50,6 @@ public class FlowEx34 {
 				} 
 			} // for(;;)
 		} // while의 끝
+		scanner.close();
 	} // main의 끝
 }
