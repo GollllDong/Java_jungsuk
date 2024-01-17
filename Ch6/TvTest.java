@@ -1,6 +1,6 @@
 package Ch6;
 
-class Tv { 
+class Tv_1 { 
     // Tv의 속성(멤버변수) 
     String color;           	// 색상 
     boolean power;         	// 전원상태(on/off) 
@@ -14,7 +14,7 @@ class Tv {
 
 public class TvTest { 
      public static void main(String args[]) { 
-       Tv t = new Tv();
+       Tv_1 t = new Tv_1();
        t.channel = 10;
        t.channelDown();
        System.out.println("현재 채널은 " + t.channel + " 입니다.");

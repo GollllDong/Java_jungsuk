@@ -1,6 +1,6 @@
 package Ch6;
 
-class Tv { 
+class Tv_3 { 
     // Tv의 속성(멤버변수) 
     String color;           // 색상 
     boolean power;          // 전원상태(on/off) 
@@ -14,8 +14,8 @@ class Tv {
 
 class TvTest3 {
    public static void main(String args[]) {
-       Tv t1 = new Tv();
-       Tv t2 = new Tv();
+       Tv_3 t1 = new Tv_3();
+       Tv_3 t2 = new Tv_3();
        System.out.println("t1의 channel값은 " + t1.channel + "입니다.");
        System.out.println("t2의 channel값은 " + t2.channel + "입니다.");
 
