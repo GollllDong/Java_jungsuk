@@ -34,7 +34,7 @@ class MyMath3 {
 		return a+b;
 	}
 
-	int add(int[] a) {		// 배열의 모든 요소의 합을 결과로 돌려준다.
+	int add(int[] a) {		// 배열의 모든 요소의 합을 결과로 돌려주게 된다.
 		System.out.print("int add(int[] a) - ");
 		int result = 0;
 		for(int i=0; i < a.length;i++) {

@@ -1,7 +1,7 @@
 package Ch6;
 
 class Data1 {
-	int value = 10; // -> Data1클래스는 안에 생성자를 지정한게 없기 때문에 자동적으로 생성자가 초기화됨.
+	int value = 10; // -> Data1클래스는 안에 생성자를 지정한게 없기 때문에 자동적으로 생성자가 초기화된다.
 }
 
 class Data2 {

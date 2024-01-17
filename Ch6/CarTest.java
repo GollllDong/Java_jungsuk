@@ -7,7 +7,7 @@ class Car {
 
     Car () {} // C1 
 
-    Car(String c, String b, int p) { // C2
+    Car(String c, String b, int p) { // C2 >> IV, LV 유의
         color = c;
         brand = b;
         pay = p;
