@@ -19,7 +19,7 @@ class Car {
 	}
 }
 
-class CarTest2 {
+class CarTest2_1 {
 	public static void main(String[] args) {
 		Car c1 = new Car();	
 		Car c2 = new Car("blue");
