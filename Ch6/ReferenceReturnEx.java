@@ -2,7 +2,7 @@ package Ch6;
 
 class Data { int x; }
 
-public class ReferenceReturnEx {
+class ReferenceReturnEx {
 	public static void main(String[] args) 
 	{
 		Data d = new Data();    // d라는 참조변수에 0x100번지에 x라는 값을 가진 객체 생성
