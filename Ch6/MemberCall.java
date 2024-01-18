@@ -1,12 +1,7 @@
 package Ch6;
 
 public class MemberCall {
-    public static void main(String[] args) {
-        MemberCall m = new MemberCall();
-        System.out.println(m.iv); // 이게 10이 나옴
-        MemberCall.staticMethod1(); // or staticMethod1(); 가능, 만약 println()을 쓸 경우 오류가 뜨는 이유는 
-        // println()메서드는 전달받은 값이 출력 가능한 데이터 타입이어야하는데 void는 출력할 값이 없다는것을 말하기때문이다.
-    }
+    
     int iv = 10;
     static int cv = 20;
     int iv2 = cv;
@@ -35,5 +30,11 @@ public class MemberCall {
     void instanceMethod2() {   // 인스턴스메서드에서는 인스턴스메서드와 클래스메서드
         staticMethod1();      //  모두 인스턴스 생성없이 바로 호출이 가능하다.
         instanceMethod1();
+    }
+    public static void main(String[] args) {
+        MemberCall m = new MemberCall();
+        System.out.println(m.iv); // 이게 10이 나옴
+        MemberCall.staticMethod1(); // or staticMethod1(); 가능, 만약 println()을 쓸 경우 오류가 뜨는 이유는 
+        // println()메서드는 전달받은 값이 출력 가능한 데이터 타입이어야하는데 void는 출력할 값이 없다는것을 말하기때문이다.
     }
 }
