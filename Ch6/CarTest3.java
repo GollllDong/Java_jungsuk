@@ -10,9 +10,9 @@ class Car {
 	}
 
 	Car(Car c) {	// 인스턴스의 복사를 위한 생성자. -> Car클래스의 값을 초기화 시키기 위해 임시적인 변수 c를 만들어서 사용
-		color    = c.color;
-		gearType = c.gearType;
-		door     = c.door;
+		this.color    = c.color;
+		this.gearType = c.gearType;
+		this.door     = c.door;
 	}
 
 	Car(String color, String gearType, int door) {
