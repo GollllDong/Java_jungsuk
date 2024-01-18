@@ -8,9 +8,11 @@ class Data2 {
 	int value;
     int tmp;
 
-	Data2(int x, int y) { 	// 매개변수가 있는 생성자.
-		value = x;
-        tmp = y;
+	Data2(int value, int tmp) { 	// 매개변수가 있는 생성자.
+		value = 40; // 초기값들은 20 50 이지만 이후에 생성자 초기화를 시켜준다.
+		tmp = 200;
+		this.value = value;
+        this.tmp = tmp;
 	}
 }
 
