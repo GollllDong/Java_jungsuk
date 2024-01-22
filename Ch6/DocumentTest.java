@@ -20,6 +20,11 @@ class DocumentTest {
 		Document d2 = new Document("자바.txt");
 		Document d3 = new Document();
 		Document d4 = new Document();
+
+		System.out.println("D1" + d1);
+		System.out.println("D2" + d2);
+		System.out.println("D3" + d3);
+		System.out.println("D4" + d4);
 	}
 }
 // 메서드 오버로딩을 통해 인자값이 존재하는 코드는 2번째 메서드로 가서 
