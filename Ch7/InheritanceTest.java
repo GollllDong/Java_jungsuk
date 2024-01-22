@@ -9,7 +9,7 @@ class MyPoint {
 // }
 
 class Circle_2 {
-    MyPoint p = new MyPoint();  // -> 포함관계
+    MyPoint p = new MyPoint();  // -> 포함 관계
     int z;
 }
 
@@ -19,7 +19,7 @@ public class InheritanceTest {
         // c_2.x = 15; 상속
         // c_2.y = 23;
         // c_2.z = 53;
-        c_2.p.x = 20; // 포함
+        c_2.p.x = 20; // 포함 관계
         c_2.p.y = 50;
         c_2.z = 67;
         System.out.println("c_2.p.x : " + c_2.p.x );

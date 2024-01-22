@@ -28,7 +28,7 @@ class CaptionTvTest {
 		System.out.println(ctv.channel);
         	
         ctv.displayCaption("Hello, World");	// 캡션off라 실행 X
-		ctv.caption = true;		 // 캡션기능을 켠다.
+		ctv.caption = true;		 					// 캡션기능을 켠다.
 		ctv.displayCaption("Hello, World");	// 캡션키고 매개변수에 값 할당
 	}
 }
