@@ -3,11 +3,17 @@ package Ch7;
 class DeckTest {
 	public static void main(String args[]) {
 		Deck d = new Deck();	   // 카드 한 벌(Deck)을 만든다.
-		Card c = d.pick(0);	   // 섞기 전에 제일 위의 카드를 뽑는다.
+
+        // 원래 코드 Card c = d.pick(0);   섞기 전에 제일 위의 카드를 뽑는다. -> 처음에 spade가 계속 나오게함
+        //수정 코드
+        int ra_card = (int)(Math.random() * 4); // 초기 카드가 4개중에 랜덤으로 나오게 만듬.
+        int ra_number = (int)(Math.random() * 13)+1; // 0~K까지 랜덤으로 나오게 만듬
+		Card c = new Card(ra_card + 1, ra_number);	   // 섞기 전에 제일 위의 카드를 뽑는다.
+        
 		System.out.println(c); // System.out.println(c.toString());과 같다.
 
 		d.shuffle();			   // 카드를 섞는다.
-		c = d.pick(0);		   // 섞은 후에 제일 위의 카드를 뽑는다.
+		c = d.pick();		   // 섞은 후에 제일 위의 카드를 뽑는다.
 		System.out.println(c);
 	}
 }
